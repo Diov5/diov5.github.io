@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="assets/css/tailwind.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/cv-drib2.webp">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- cdnjs -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+
+</head>
+<body style="scroll-behavior: smooth;">
+    <header id="navbar" class="">
+        <div  class="flex items-center w-full h-16 transition duration-100 ease-in-out" style="background-color: white;">
+            <div class="flex items-center w-full mx-auto responsive">
+                <div class="flex items-center">
+                    <p class="ml-2 text-xl mont-bold animate__animated animate__bounceInDown animate__slow">Portofolio</p>
+                </div>
+                <div class="flex items-center ml-auto text-sm font-semibold h-full">
+                    <a class="hover:bg-gray-500 hover:text-white p-4 transition ease-in-out duration-500 delay-200  animate__animated animate__bounceInDown animate__slow" href="#work">Work</a>
+                    <a class="hover:bg-gray-500 hover:text-white p-4 transition ease-in-out duration-500 delay-200 animate__animated animate__bounceInDown animate__slow" href="#about">About</a>
+                    <a class="hover:bg-gray-500 hover:text-white p-4 transition ease-in-out duration-500 delay-200 animate__animated animate__bounceInDown animate__slow" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="">
+
+        <div class="ccontainer grid items-center w-full h-screen justify-items-center lg:justify-items-start " >
+            <div class="flex flex-col items-start w-full mx-auto responsive lg:text-left">                
+                <p class="mb-2 text-5xl lg:text-6xl mont-bold animate__animated animate__zoomInLeft">Hello! <br> My name is Dio :)</p>
+                <p class="mb-2 text-4xl lg:text-5xl mont-bold text-666 animate__animated animate__zoomInRight">I'm a beginner Front End Developer.</p>
+            </div>
+        </div>        
+        
+        <div id="work">
+            
+             <!-- Fresh.co -->
+             <div id="indihome" class="project-container-background" style="background-color: hsl(85, 57%, 85%);">
+                <div class="project-container">      
+                    <div class="project-image-container">
+                        <div class="image-modal">
+                            <div class="image-content" onclick="openModal(this)">
+                                <ul class="desktop-menubar">
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                </ul>
+                                <div class="desktop-img-container" style="background-image: url(assets/img/freshco.jpg);"></div>    
+                            </div>
+                            <div class="relative hidden modal-container" onclick="closeModal()">
+                                <a href="javascript:void(0)" class="modal-close-btn">✖</a> 
+                                <div class="h-full modal-content-container responsive">
+                                    <div class="modal-content">
+                                        <img class="w-full h-full" src="assets/img/freshco.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>        
+                        <!-- <p class="mt-2 text-sm text-gray-500">Click image to enlarge</p>         -->
+                    </div>           
+                    <div class="lg:p-5"></div>
+                    <div class="description-container" data-aos="fade-up">
+                        <p class="project-title">fresh.co</p>
+                        <p class="mb-4 description-text">fresh.co is an e-commerce for groceries</p>
+                        <ul class="date-role-container">
+                            <li class=""><span class="date-role">Date</span> <span>October 2020</span></li>
+                            <li class=""><span class="date-role">Category</span> <span>E-commerce</span></li>
+                            <li class=""><span class="date-role">Role</span> <span>UI/UX Design</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IndiHome Video Conference -->
+            <div id="indihome" class="project-container-background" style="background-color: hsl(2, 85%, 95%);">
+                <div class="project-container-2">      
+                    <div class="project-image-container">
+                        <div class="image-modal">
+                            <div class="image-content" onclick="openModal(this)">
+                                <ul class="desktop-menubar">
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                </ul>
+                                <div class="desktop-img-container" style="background-image: url(assets/img/IndiHome\ Video\ Conference.png);"></div>    
+                            </div>
+                            <div class="relative hidden modal-container" onclick="closeModal()">
+                                <a href="javascript:void(0)" class="modal-close-btn">✖</a> 
+                                <div class="h-full modal-content-container responsive">
+                                    <div class="modal-content">
+                                        <img class="w-full h-full" src="assets/img/IndiHome Video Conference.png" alt="">
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>        
+                        <!-- <p class="mt-2 text-sm text-gray-500">Click image to enlarge</p>         -->
+                    </div>           
+                    <div class="lg:p-5"></div>
+                    <div class="description-container">
+                        <p class="project-title">IndiHome Video Conference</p>
+                        <p class="mb-4 description-text">IndiHome Video Conference is part of IndiHome Study Application</p>
+                        <ul class="date-role-container">
+                            <li class=""><span class="date-role">Date</span> <span>September 2020</span></li>
+                            <li class=""><span class="date-role">Category</span> <span>Website Application</span></li>
+                            <li class=""><span class="date-role">Role</span> <span>UI/UX Design</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- KelasAhli.com -->
+            <div id="kelasahli" class="project-container-background" style="background-color: #eeeeee;">
+                <div class="project-container">      
+                    <div class="project-image-container">
+                        <div class="image-modal">
+                            <div class="image-content" onclick="openModal(this)">
+                                <ul class="desktop-menubar">
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                </ul>
+                                <div class="desktop-img-container" style="background-image: url(assets/img/kelasahli.jpg);"></div>    
+                            </div>
+                            <div class="relative hidden modal-container" onclick="closeModal()">
+                                <a href="javascript:void(0)" class="modal-close-btn">✖</a> 
+                                <div class="h-full modal-content-container responsive">
+                                    <div class="modal-content">
+                                        <img class="w-full h-full" src="assets/img/kelasahli.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>        
+                        <!-- <p class="mt-2 text-sm text-gray-500">Click image to enlarge</p>         -->
+                    </div>           
+                    <div class="lg:p-5"></div>
+                    <div class="description-container">
+                        <p class="project-title">KelasAhli.com</p>
+                        <p class="mb-4 description-text">KelasAhli.com is a platform for those who want to be taught by experts to become experts.</p>
+                        <ul class="date-role-container">
+                            <li class=""><span class="date-role">Date</span> <span>October 2020</span></li>
+                            <li class=""><span class="date-role">Category</span> <span>Teaching & Learning Platform</span></li>
+                            <li class=""><span class="date-role">Role</span> <span>UI/UX Design & HTML/CSS Coding</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MST -->
+            <div id="mst" class="project-container-background" style="background-color: hsl(186, 90%, 95%);">
+                <div class="project-container-2">      
+                    <div class="project-image-container">
+                        <div class="image-modal">
+                            <div class="image-content" onclick="openModal(this)">
+                                <ul class="desktop-menubar">
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                </ul>
+                                <div class="desktop-img-container" style="background-image: url(assets/img/mst.png);"></div>    
+                            </div>
+                            <div class="relative hidden modal-container">
+                                <a href="javascript:void(0)" class="modal-close-btn" onclick="closeModal()">✖</a> 
+                                <div class="h-full modal-content-container responsive">
+                                    <div class="modal-content">
+                                        <img class="w-full h-full" src="assets/img/mst.png" alt="">
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>        
+                        <!-- <p class="mt-2 text-sm text-gray-500">Click image to enlarge</p>         -->
+                    </div>           
+                    <div class="lg:p-5"></div>
+                    <div class="description-container">
+                        <p class="project-title">Mahardika Solusi Teknologi</p>
+                        <p class="mb-4 description-text">Mahardika Solusi Teknologi is an IT startup based on Bandung.</p>
+                        <ul class="date-role-container">
+                            <li class=""><span class="date-role">Date</span> <span>November 2020</span></li>
+                            <li class=""><span class="date-role">Category</span> <span>Company Profile</span></li>
+                            <li class=""><span class="date-role">Role</span> <span>UI/UX Design</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Posse.id -->
+            <div id="posse" class="project-container-background" style="background-color: hsl(272, 100%, 95%);">
+                <div class="project-container">      
+                    <div class="project-image-container">
+                        <div class="image-modal">
+                            <div class="image-content" onclick="openModal(this)">
+                                <ul class="desktop-menubar">
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                </ul>
+                                <div class="desktop-img-container" style="background-image: url(assets/img/Posse.png);"></div>    
+                            </div>
+                            <div class="relative hidden modal-container">
+                                <a href="javascript:void(0)" class="modal-close-btn" onclick="closeModal()">✖</a> 
+                                <div class="h-full modal-content-container responsive">
+                                    <div class="modal-content">
+                                        <img class="w-full h-full" src="assets/img/Posse.png" alt="">
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>        
+                        <!-- <p class="mt-2 text-sm text-gray-500">Click image to enlarge</p>         -->
+                    </div>           
+                    <div class="lg:p-5"></div>
+                    <div class="description-container">
+                        <p class="project-title">Posse.id</p>
+                        <p class="mb-4 description-text">Posse.id is a platform where they provide a wide variety of products for sale by their resellers.</p>
+                        <ul class="date-role-container">
+                            <li class=""><span class="date-role">Date</span> <span>November 2020</span></li>
+                            <li class=""><span class="date-role">Category</span> <span>E-Commerce</span></li>
+                            <li class=""><span class="date-role">Role</span> <span>UI/UX Design & HTML/CSS Coding</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Red Nose-->
+             <div id="rednose" class="project-container-background" style="background-color: hsl(220, 53%, 95%);">
+                <div class="project-container-2">      
+                    <div class="project-image-container">
+                        <div class="image-modal">
+                            <div class="image-content" onclick="openModal(this)">
+                                <ul class="desktop-menubar">
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                    <li class=""></li>
+                                </ul>
+                                <div class="desktop-img-container" style="background-image: url(assets/img/rednose.png);"></div>    
+                            </div>
+                            <div class="relative hidden modal-container">
+                                <a href="javascript:void(0)" class="modal-close-btn" onclick="closeModal()">✖</a> 
+                                <div class="h-full modal-content-container responsive">
+                                    <div class="modal-content">
+                                        <img class="w-full h-full" src="assets/img/rednose.png" alt="">
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>        
+                        <!-- <p class="mt-2 text-sm text-gray-500">Click image to enlarge</p>         -->
+                    </div>           
+                    <div class="lg:p-5"></div>
+                    <div class="description-container">
+                        <p class="project-title">Red Nose Foundation Website Redesign</p>
+                        <p class="mb-4 description-text">Red Nose Foundation (RNF), or Yayasan Hidung Merah, is a non-profit arts and education outreach organization based in Jakarta, Indonesia.</p>
+                        <ul class="date-role-container">
+                            <li class=""><span class="date-role">Date</span> <span>December 2020</span></li>
+                            <li class=""><span class="date-role">Category</span> <span>Charity</span></li>
+                            <li class=""><span class="date-role">Role</span> <span>UI/UX Design</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="about" class="grid items-center w-full min-h-screen justify-items-center lg:justify-items-start" >
+            <div class="flex flex-col items-center w-full py-16 mx-auto responsive lg:items-start lg:text-left">                
+                <div class="flex flex-col items-start mb-12">
+                    <p class="mb-6 text-4xl lg:text-5xl mont-bold">About</p>
+                    <!-- <p class="px-4 py-3 mb-6 border border-gray-500 text-666">Currently employed full-time at Mahardika Solusi Teknologi and opens for taking on any new projects.</p> -->
+                    <p class="mb-4 description-text">Passionate in Technologhy.</p>
+                    <p class="description-text">Always committed to giving the user the best possible experience and creating something everyone can be excited about.</p>
+                </div>
+                <div class="grid items-start w-full grid-cols-1 gap-6 text-left justify-items-start md:grid-cols-4 text-666">
+                    <p class="mont-bold">Selected Skills</p>
+                    <div class="">
+                        <p class="mb-4 mont-bold">Website</p>
+                        <ul>
+                            <li class="mb-2">HTML5</li>
+                            <li class="mb-2">CSS/Tailwindcss</li>
+                            <li>Javascript/jQuery</li>
+                        </ul>
+                    </div>  
+                    <div class="">
+                        <p class="mb-4 mont-bold">Languages</p>
+                        <ul>
+                            <li class="mb-2">Indonesian</li>
+                            <li class="mb-2">English</li>                                                     
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        
+        <div id="contact" class="grid items-center w-full h-screen justify-items-center lg:justify-items-start" style="background-color: #1a1a1a;">
+            <div class="flex flex-col items-center w-full mx-auto text-center text-white responsive lg:items-start lg:text-left">                
+                <p class="text-4xl leading-normal lg:text-5xl mont-bold lg:leading-normal">Got a project you’d like some help with? <br> Let’s talk about it. <br> You can contact me via <span class="cursor-pointer link-text" onclick="sendEmail()">E-mail</span href="#"> or <a href="https://wa.me/628984546210" target="_blank" class="link-text">Whatsapp</a>.</p>
+            </div>
+        </div>
+        <!-- or <a href="https://www.linkedin.com/in/indra-prakoso-poerwanto-9253a0202/" target="_blank" class="link-text">linkedin</a> -->
+    </section>
+
+    <!-- <script>        
+        $(function() {
+            $('.lazy').Lazy();
+        });           
+    </script>       -->
+
+    <!-- <script>
+        var navbar = $("#navbar");
+
+        function white() {
+            navbar.css("background-color", "white").css("color", "#1a1a1a");
+        }
+        
+        $("#indihome").mouseenter(function(){
+            navbar.css("background-color", "hsl(2, 85%, 95%)");
+        }).mouseleave(function(){
+            white();
+        }); 
+
+        $("#kelasahli").mouseenter(function(){
+            navbar.css("background-color", " #eeeeee");
+        }).mouseleave(function(){
+            white();
+        }); 
+
+        $("#mst").mouseenter(function(){
+            navbar.css("background-color", " hsl(186, 90%, 95%)");
+        }).mouseleave(function(){
+            white();
+        }); 
+        
+        $("#posse").mouseenter(function(){
+            navbar.css("background-color", " hsl(272, 100%, 95%)");
+        }).mouseleave(function(){
+            white();
+        }); 
+
+        $("#contact").mouseenter(function(){
+            navbar.css("background-color", "#1a1a1a").css("color", "white");
+        }).mouseleave(function(){
+            white();
+        });       
+
+        
+
+    </script> -->
+
+    <script>
+        function openModal(el) {
+            $(el).next(".modal-container").addClass("flex").removeClass("hidden");
+            $("body").css("overflow-y", "hidden");
+            $("#navbar").css("display", "noner");
+        }
+
+        function closeModal() {
+            $(".modal-container").addClass("hidden").removeClass("flex");
+            $("body").css("overflow-y", "");
+            $("#navbar").css("display", "");
+        }
+    </script>
+
+    <script>
+        function sendEmail() 
+        {
+            window.location = "mailto:claudio.valentino46@gmail.com";
+        }
+    </script>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-4rem";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+
+</body>
+</html>
